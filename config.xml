@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="converter" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Currency Converter</name>
+<widget id="io.cordova.gpsapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>GPS App</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -23,5 +23,6 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <icon src="img/mylogo.jpg"/>
+    <plugin name="cordova-plugin-geolocation" version="2.1.0" /> <!-- plugin of cordova which will give us access to                                                                    gps of our mobile phone to fetch the location -->
+    <icon src="img/localogo.png" />
 </widget>
